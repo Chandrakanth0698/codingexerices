@@ -19,4 +19,4 @@ elif uploaded_image:
     gray_upimg = up_img.convert("L")
     st.image(gray_upimg)
 
-st.rerun()
+

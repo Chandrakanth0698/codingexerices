@@ -17,6 +17,6 @@ message:{raw_message}
     """
     button = st.form_submit_button()
     if button:
-        send_email(message,password=st.secrets['YOUR_SMTP_GMAIL_PASSWORD'])
+        send_email(message)
         st.info("email sent successfully")
 
